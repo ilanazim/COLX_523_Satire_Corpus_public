@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="static/frontend.js"></script>
+<link rel="stylesheet" type="text/css" href="static/frontend.css">
+</head>
+<body>
+<div class="sidenav">
+<img src="static/logo.gif" width="200">
+<input class="custom-text-box" id = 'keyword' type="text" value=""/>
+<br><br>
+<div class="custom-button" onclick="search();">Search</div>
+<br><br>
+<input type="checkbox" id="checkbox" class="custom-check-box"><a  class="toggle-vis" style="cursor: pointer;" onclick="annotations();">Show Annotations</a><br>
+</div>
+<div class = "main">
+		<table>
+				<tr>
+					<th>Headline</th>
+				</tr>
+				<div id = 'content'>
+						{{ documents|safe }}
+				</div>
+		</table>
+</div>
+</body>
+</html>
