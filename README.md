@@ -14,7 +14,7 @@ Fake news is a form of news that consists of deliberate misinformation that is s
 
 The code to the final corpus webapp is stored [here](https://github.ubc.ca/ilanaz/COLX_523_Satire_Corpus/tree/master/Code/Production).
 
-### Directions to use
+##### Directions to use
 
 - Download or Clone the repo
 - Go into the Code/Production/ directory
