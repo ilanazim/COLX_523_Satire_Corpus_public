@@ -12,11 +12,11 @@ Fake news is a form of news that consists of deliberate misinformation that is s
 
 ## Interface
 
-The code to the final corpus webapp is stored [here](https://github.ubc.ca/ilanaz/COLX_523_Satire_Corpus/tree/master/Code/Production).
+The code to the final corpus webapp is stored [here](https://github.ubc.ca/yan05/COLX_523_Satire_Corpus_public/tree/master/Production).
 
 ##### Directions to use
 
 - Download or Clone the repo
-- Go into the Code/Production/ directory
+- Go into the [Production](https://github.ubc.ca/yan05/COLX_523_Satire_Corpus_public/tree/master/Production)
 - Run the following command python deploy.py
 - Open the browser and visit the following url - http://0.0.0.0/
